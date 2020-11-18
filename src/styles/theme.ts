@@ -2,9 +2,9 @@ import { DefaultTheme } from 'styled-components';
 
 const theme: DefaultTheme = {
   // Fonts
-  loraFont: 'Lora',
-  montserratFont: 'Montserrat',
-  crismsonProFont: 'Crimson Pro',
+  loraFont: 'Lora, serif',
+  montserratFont: 'Montserrat, serif',
+  crismsonProFont: 'Crimson Pro, serif',
 
   // Colors
   colors: {
