@@ -10,11 +10,12 @@ export const Container = styled.div`
   grid-template-rows: auto 1fr auto;
   row-gap: 3.2rem;
 
-  padding: 1.9rem 1.9rem 2.4rem 1.7rem;
+  padding: 1.9rem 1.9rem 1.4rem;
   margin: 0 auto;
 
   max-width: 1440px;
   width: 100%;
+  height: 100%;
 
   @media (min-width: 950px) {
     padding: 3.6rem;
@@ -214,11 +215,10 @@ export const PersonRoleDetail = styled.h5`
 `;
 
 export const Footer = styled.footer`
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  margin-bottom: 1rem;
 
   p {
     font: 600 1.2rem ${props => props.theme.montserratFont};

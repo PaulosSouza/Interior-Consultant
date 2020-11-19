@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   :root {
     font-size: 10px;
-    height: 100vh;
+    height: 100%;
     margin: 0;
   }
 
@@ -20,6 +20,10 @@ export default createGlobalStyle`
     background-color: ${props => props.theme.colors.background};
     font-size: 100%;
     color: #fff;
+  }
+
+  html,body, #root {
+    height: 100%;
   }
 
   img {
