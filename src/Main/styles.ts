@@ -10,7 +10,7 @@ export const Container = styled.div`
   grid-template-rows: auto 1fr auto;
   row-gap: 3.2rem;
 
-  padding: 1.9rem 1.9rem 1.4rem;
+  padding: 1.9rem 1.9rem 0;
   margin: 0 auto;
 
   max-width: 1440px;
@@ -18,7 +18,7 @@ export const Container = styled.div`
   height: 100%;
 
   @media (min-width: 950px) {
-    padding: 3.6rem;
+    padding: 3.6rem 3.6rem 0.5rem;
     row-gap: 6.4rem;
   }
 `;
@@ -64,13 +64,16 @@ export const NavBar = styled.nav<NavBarProps>`
 `;
 
 export const NavItem = styled.p`
-  font: 700 1.4rem ${props => props.theme.montserratFont};
+  font: 700 2.4rem ${props => props.theme.montserratFont};
+
+  padding: 1.6rem;
 
   cursor: pointer;
 
   @media (min-width: 950px) {
     margin-right: 5.6rem;
     padding: 1.4rem;
+    font-size: 1.8rem;
   }
 `;
 
@@ -105,6 +108,8 @@ export const Content = styled.div`
 
     grid-template-columns: 1fr 1.3fr;
     column-gap: 6.4rem;
+
+    max-height: 90vh;
   }
 `;
 
@@ -221,7 +226,7 @@ export const Footer = styled.footer`
   margin-bottom: 1rem;
 
   p {
-    font: 600 1.2rem ${props => props.theme.montserratFont};
+    font: 600 1.6rem ${props => props.theme.montserratFont};
     color: #a2a2a2;
   }
 `;
