@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](./screenshots/dashboard.png)
+![screenshot](dashboard.png)
 
 This is my Interior Consultant page built with ReactJS. 
 This page was developed to meet the challenge of devchallenges.io.
